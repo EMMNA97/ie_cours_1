@@ -30,7 +30,7 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="Button"/>
                                         <connections>
-                                            <segue destination="ch2-ko-hW8" kind="presentation" id="oAI-RO-C4e"/>
+                                            <segue destination="ch2-ko-hW8" kind="presentation" id="hBG-ES-LYQ"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -72,7 +72,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ylE-Py-TRp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2257" y="-1061"/>
+            <point key="canvasLocation" x="-3625" y="-1263"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="hLH-kb-YlH">
@@ -88,18 +88,28 @@
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7za-2P-46u">
                                 <rect key="frame" x="0.0" y="0.0" width="188" height="334"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SLR-Tv-wJk">
+                                        <rect key="frame" x="63" y="67" width="46" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Button"/>
+                                        <connections>
+                                            <segue destination="S4W-NZ-VXk" kind="presentation" id="COG-dw-F4J"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
                                 <color key="backgroundColor" red="1" green="0.23713671729999999" blue="0.24568026060000001" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pDP-GO-NgV">
-                                <rect key="frame" x="188" y="334" width="187" height="333"/>
+                                <rect key="frame" x="187" y="333" width="188" height="334"/>
                                 <color key="backgroundColor" red="1" green="0.23713671729999999" blue="0.24568026060000001" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zYb-6c-66c">
-                                <rect key="frame" x="0.0" y="334" width="188" height="333"/>
+                                <rect key="frame" x="0.0" y="333" width="188" height="334"/>
                                 <color key="backgroundColor" red="0.283317502" green="0.1787225939" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sUo-os-zEh">
-                                <rect key="frame" x="188" y="0.0" width="187" height="334"/>
+                                <rect key="frame" x="187" y="0.0" width="188" height="334"/>
                                 <color key="backgroundColor" red="0.283317502" green="0.1787225939" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                         </subviews>
@@ -126,7 +136,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ozO-0s-qjn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1780" y="-1061"/>
+            <point key="canvasLocation" x="-2954" y="-1263"/>
         </scene>
     </scenes>
 </document>
