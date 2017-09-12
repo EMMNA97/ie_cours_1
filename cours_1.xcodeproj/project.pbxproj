@@ -12,6 +12,7 @@
 		9BDB50FA1F685E5600490C96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BDB50F81F685E5600490C96 /* Main.storyboard */; };
 		9BDB50FC1F685E5600490C96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BDB50FB1F685E5600490C96 /* Assets.xcassets */; };
 		9BDB50FF1F685E5600490C96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BDB50FD1F685E5600490C96 /* LaunchScreen.storyboard */; };
+		9BDB51071F68811800490C96 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BDB51061F68811800490C96 /* Storyboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		9BDB50FB1F685E5600490C96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9BDB50FE1F685E5600490C96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9BDB51001F685E5600490C96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BDB51061F68811800490C96 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 		9BDB50E81F685E5500490C96 = {
 			isa = PBXGroup;
 			children = (
+				9BDB51061F68811800490C96 /* Storyboard.storyboard */,
 				9BDB50F31F685E5600490C96 /* cours_1 */,
 				9BDB50F21F685E5600490C96 /* Products */,
 			);
@@ -124,6 +127,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BDB50FF1F685E5600490C96 /* LaunchScreen.storyboard in Resources */,
+				9BDB51071F68811800490C96 /* Storyboard.storyboard in Resources */,
 				9BDB50FC1F685E5600490C96 /* Assets.xcassets in Resources */,
 				9BDB50FA1F685E5600490C96 /* Main.storyboard in Resources */,
 			);
@@ -299,6 +303,7 @@
 				9BDB51051F685E5600490C96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
